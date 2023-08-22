@@ -1,0 +1,15 @@
+{
+  "name": "@bubu-cli/vue-template",
+  "version": "1.0.12",
+  "description": "vue template",
+  "keywords": [],
+  "author": "yeshaojun",
+  "license": "ISC",
+  "files": [
+    "template",
+    "plugins"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

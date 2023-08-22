@@ -1,0 +1,6 @@
+@import './base.css';
+<%_ if (data.isTailWindCss) { _%>
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+<%_ } _%>
