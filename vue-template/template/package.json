@@ -27,7 +27,7 @@
     <%_ } _%>
     "vue": "^3.3.4",
     "@vueuse/core": "^10.4.1",
-    "axios": "^1.5.0",
+    "axios": "^1.5.0"
   },
   "devDependencies": {
     <%_ if (data.isTailWindCss) { _%>
