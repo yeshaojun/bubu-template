@@ -20,7 +20,7 @@
     "vue-router": "^4.2.4",
     <%_ } _%>
     <%_ if (data.ui.indexOf('element-plus') !== -1) { _%>
-    "element-plus": "^2.3.9",
+    "element-plus": "^2.6.1",
     <%_ } _%>
     <%_ if (data.ui.indexOf('vant') !== -1) { _%>
     "vant": "^4.6.6",

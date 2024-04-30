@@ -103,7 +103,11 @@ export function useRequest<T>(
 
     const context = {
       url: toValue(url),
-      options: requestOptions,
+      options: {
+        ...requestOptions,
+        params: toValue(requestOptions.params),
+        data: toValue(requestOptions.data),
+      },
       cancel: () => {
         isCanceled = true;
       },
