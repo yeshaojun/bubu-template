@@ -165,7 +165,7 @@ export function useRequest<T>(
   });
 
   function until() {
-    let stop: Function | null = null;
+    let stop: (() => void) | null = null as (() => void) | null;
     return new Promise((resolve) => {
       watch([isFinished], ([v1]) => {
         if (v1 === true) {
